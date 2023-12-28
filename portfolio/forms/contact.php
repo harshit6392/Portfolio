@@ -5,8 +5,10 @@ if (
     !empty($_POST["email"]) &&
     !empty($_POST["phone"]) &&
     !empty($_POST["message"]) && 
-    !empty($_POST["subject) {
-    $to = 'advocerhelp@gmail.com';
+    !empty($_POST["subject"])
+ )
+  {
+    $to = 'hsharma6392@gmail.com';
     $from = $_POST["email"];
     $user_email = $from;
     $subject = $_POST['subject'];
